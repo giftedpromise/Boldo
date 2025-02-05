@@ -118,7 +118,7 @@ const Header = () => {
         {/* Left Content */}
         <div className="md:w-[640px] space-y-4">
           <h1
-            className={`${manrope.className} text-5xl font-normal leading-[72px] pb-4`}
+            className={`${manrope.className} text-5xl font-normal text-[#000] leading-[72px] pb-4`}
           >
             Save time by building fast with Boldo Template
           </h1>
@@ -129,11 +129,11 @@ const Header = () => {
             partnership. First mover advantage innovator success deployment
             non-disclosure.
           </p>
-          <div className="flex space-x-4">
+          <div className="flex gap-6 md:flex-row flex-col">
             <button className="inline-flex h-[60px] px-[56px] py-[16px] justify-center items-center rounded-[56px] border-2 border-[#0A2640] bg-[#0A2640] text-white font-open-sans text-[20px] font-bold leading-[28px] gap-[8px] flex-shrink-0 hover:bg-white hover:border-[#0A2640] hover:text-[#0A2640] transition duration-300">
               Buy Template
             </button>
-            <button className="border border-gray-800 text-gray-800 px-6 py-3 rounded-md hover:bg-gray-100">
+            <button className="inline-flex h-[60px] px-[56px] py-[16px] justify-center items-center rounded-[56px] border-2 border-[#0A2640] bg-white text-[#0A2640] font-open-sans text-[20px] font-bold leading-[28px] gap-[8px] flex-shrink-0 hover:bg-[#0A2640] hover:border-[#0A2640] hover:text-white transition duration-300">
               Explore
             </button>
           </div>
@@ -149,6 +149,30 @@ const Header = () => {
           />
         </div>
       </section>
+      <div className="lg:px-[114px] text-center md:px-[40px] px-8 pb-[87px]">
+        {" "}
+        <Image
+          src="/images/groupLogo.png"
+          alt="Logo"
+          width={1119}
+          height={50}
+          className="lg:block md:hidden hidden"
+        />
+        <Image
+          src="/images/groupLogo.png"
+          alt="Logo"
+          width={900}
+          height={50}
+          className="md:block lg:hidden hidden "
+        />
+        <Image
+          src="/images/groupLogo.png"
+          alt="Logo"
+          width={450}
+          height={50}
+          className="block lg:hidden md:hidden "
+        />
+      </div>
     </div>
   );
 };
