@@ -34,7 +34,7 @@ const Header = () => {
 
         {/* Logo */}
         <div className="flex justify-between w-full items-center">
-          <Image src="/images/logo.png" alt="Logo" width={162} height={42} />
+          <Image src="/images/Logo.png" alt="Logo" width={162} height={42} />
 
           {/* Mobile Menu Button */}
           <button
