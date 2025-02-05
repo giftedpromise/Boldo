@@ -1,6 +1,8 @@
 import OurServices from "@/components/OurServices";
+import Testimonial from "@/components/Testimonial";
+import OurBlog from "@/components/OurBlog";
 import Image from "next/image";
-import { Check } from "lucide-react";
+import { Check, ChevronDown } from "lucide-react";
 import { Open_Sans, Manrope } from "next/font/google";
 
 const manrope = Manrope({
@@ -74,8 +76,8 @@ export default function Home() {
         </div>
       </section>
       <section>
-        <div className="flex justify-center gap-[156px] items-center ">
-          <div className="w-[493px]">
+        <div className="flex justify-center md:gap-[156px] gap-[80px] px-6 md:px-[40px] lg:px-[100px] items-center md:flex-row flex-col">
+          <div className="md:w-[540px] w-full">
             <h2
               className={`${manrope.className} text-4xl font-normal text-[#000] leading-[56px] pb-[64px]`}
             >
@@ -129,6 +131,63 @@ export default function Home() {
             height={728}
           />
         </div>
+      </section>
+      <section>
+        <Testimonial />
+      </section>
+      <section className="pt-[120px] lg:px-[120px] md:px-[40px] px-6">
+        <Image
+          src="/images/connection.png"
+          alt="ourWork"
+          width={1100}
+          height={403}
+          objectFit="contain"
+        />
+        <div className="flex md:flex-row flex-col pt-[56px] gap-[70px] ">
+          <h2
+            className={`${manrope.className} text-4xl w-[500px] font-normal text-[#000] leading-[56px]`}
+          >
+            We connect our customers with the best, and help them keep up-and
+            stay open.
+          </h2>
+          <div>
+            <div className="flex gap-9 pb-4">
+              <p
+                className={`${openSans.className} text-[20px] font-normal text-[#000] leading-[32px]`}
+              >
+                We connect our customers with the best?
+              </p>
+              <div className="flex items-center justify-center bg-black w-[28px] h-[28px] rounded-full">
+                <ChevronDown size={24} color="white" />
+              </div>
+            </div>
+            <Image
+              src="/images/line1.png"
+              alt="ourWork"
+              width={480}
+              height={1}
+            />
+            <div className="flex gap-9 pb-4 pt-8">
+              <p
+                className={`${openSans.className} text-[20px] font-normal text-[#000] leading-[32px]`}
+              >
+                Android research & development rockstar?{" "}
+              </p>
+              <div className="flex items-center justify-center bg-black w-[28px] h-[28px] rounded-full">
+                <ChevronDown size={24} color="white" />
+              </div>
+            </div>
+            <Image
+              src="/images/line1.png"
+              alt="ourWork"
+              width={480}
+              height={1}
+            />
+          </div>
+        </div>
+      </section>
+      <section>
+        <OurBlog />
       </section>
     </main>
   );
