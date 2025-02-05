@@ -145,7 +145,7 @@ export default function Home() {
         />
         <div className="flex md:flex-row flex-col pt-[56px] gap-[70px] ">
           <h2
-            className={`${manrope.className} text-4xl w-[500px] font-normal text-[#000] leading-[56px]`}
+            className={`${manrope.className} text-4xl md:w-[500px] w-full  font-normal text-[#000] leading-[56px]`}
           >
             We connect our customers with the best, and help them keep up-and
             stay open.
