@@ -130,7 +130,7 @@ const Header = () => {
             non-disclosure.
           </p>
           <div className="flex gap-6 md:flex-row flex-col">
-            <button className="inline-flex h-[60px] px-[56px] py-[16px] justify-center items-center rounded-[56px] border-2 border-[#0A2640] bg-[#0A2640] text-white font-open-sans text-[20px] font-bold leading-[28px] gap-[8px] flex-shrink-0 hover:bg-white hover:border-[#0A2640] hover:text-[#0A2640] transition duration-300">
+            <button className="inline-flex h-[60px] px-[56px] py-[16px] justify-center items-center rounded-[56px] border-2 border-[#0A2640] bg-[#0A2640] text-[#FFF] font-open-sans text-[20px] font-bold leading-[28px] gap-[8px] flex-shrink-0 hover:bg-white hover:border-[#0A2640] hover:text-[#0A2640] transition duration-300">
               Buy Template
             </button>
             <button className="inline-flex h-[60px] px-[56px] py-[16px] justify-center items-center rounded-[56px] border-2 border-[#0A2640] bg-white text-[#0A2640] font-open-sans text-[20px] font-bold leading-[28px] gap-[8px] flex-shrink-0 hover:bg-[#0A2640] hover:border-[#0A2640] hover:text-white transition duration-300">
