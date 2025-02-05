@@ -17,7 +17,7 @@ const openSans = Open_Sans({
 
 export default function Home() {
   return (
-    <main>
+    <main className="overflow-x-hidden">
       <div>
         <OurServices />
       </div>
