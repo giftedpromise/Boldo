@@ -188,7 +188,7 @@ const OurBlog = () => {
           </div>
         </div>
       </div>
-      <div className="text-center lg:pt-[84px] pb-[124px] md:pt-[60px] md:pb-[60px]">
+      <div className="text-center lg:pt-[84px] pb-[124px] md:pt-[60px] md:pb-[60px] pt-[60px] pb-[60px]">
         <button className="inline-flex h-[60px] px-[56px] py-[16px] justify-center items-center rounded-[56px] border-2 border-[#0A2640] bg-white text-[#0A2640] font-open-sans text-[20px] font-bold leading-[28px] gap-[8px] flex-shrink-0 hover:bg-[#0A2640] hover:border-[#0A2640] hover:text-white transition duration-300">
           Load more
         </button>

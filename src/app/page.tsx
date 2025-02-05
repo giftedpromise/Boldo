@@ -70,7 +70,7 @@ export default function Home() {
               Business-to-consumer long tail.
             </h2>
           </div>
-          <button className="flex items-center w-[210px] h-[60px] justify-center gap-2 px-[56px] py-[16px] rounded-[56px] border-2 border-[#0A2640] text-white font-open-sans text-[20px] font-bold leading-[28px] bg-[#0A2640]">
+          <button className="flex items-center w-[210px] h-[60px] justify-center whitespace-nowrap gap-2 px-[56px] py-[16px] rounded-[56px] border-2 border-[#0A2640] text-white font-open-sans text-[20px] font-bold leading-[28px] bg-[#0A2640]">
             Start now
           </button>
         </div>
