@@ -189,6 +189,35 @@ export default function Home() {
       <section>
         <OurBlog />
       </section>
+      <section className="bg-[#0A2640] rounded-[12px] h-full md:h-[391px] lg:mx-[100px] md:mx-[40px] mx-6 relative">
+        <div className="absolute right-0 top-0 w-full h-full overflow-hidden z-10 hidden md:block">
+          <Image
+            src="/images/ovalbg.png"
+            alt="Background"
+            fill
+            priority
+            className="object-cover "
+          />
+        </div>
+        <h2
+          className={`${manrope.className} text-5xl pt-[72px] text-center font-normal text-[#ffff] leading-[72px] relative z-20`}
+        >
+          An enterprise template to ramp{" "}
+          <span className="hidden sm:inline">
+            {" "}
+            <br />
+          </span>
+          up your company website
+        </h2>
+        <div className="flex justify-center gap-6 md:flex-row pb-8 md:pb-0 flex-col pt-[50px] px-4">
+          <button className="md:w-[370px] w-[300px] h-[56px] flex-shrink-0 text-black text-left pl-8 font-open-sans text-[20px] font-normal leading-[32px] rounded-[240px] border-2 border-white bg-white">
+            Your email address
+          </button>
+          <button className="inline-flex items-center justify-center gap-2 px-[56px] py-[16px] rounded-[56px] border-2 border-[#65E4A3] text-[#0A2640] font-open-sans text-[20px] font-bold leading-[28px] bg-[#65E4A3]">
+            Start now
+          </button>
+        </div>
+      </section>
     </main>
   );
 }
