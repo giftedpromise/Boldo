@@ -1,11 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { Open_Sans, Manrope } from "next/font/google";
-
-const manrope = Manrope({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
+import { Open_Sans } from "next/font/google";
 
 const openSans = Open_Sans({
   subsets: ["latin"],
